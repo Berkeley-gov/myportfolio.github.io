@@ -1,8 +1,7 @@
-/*!
-    * Start Bootstrap - Freelancer v6.0.0 (https://startbootstrap.com/themes/freelancer)
-    * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
-    */
+/*
+Authur: Juan Ramirez
+Date: 10/28/2020
+*/
     (function($) {
     "use strict"; // Start of use strict
   
