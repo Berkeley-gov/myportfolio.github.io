@@ -1,3 +1,17 @@
 #projectButtons {
     background-color: #0f6674 !important;
 }
+
+
+.customDivPadding {
+    padding: 0px 120px;
+}
+
+.customFontSize {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.align {
+    text-align: center;
+}
