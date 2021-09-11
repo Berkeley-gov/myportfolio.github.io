@@ -46,7 +46,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead subheading-->
-                <p class="pre-wrap masthead-subheading font-weight-light mb-0">Software Engineer</p>
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0" style="font-size: 24px;">Software Engineer</p>
             </div>
         </header>
 
@@ -72,9 +72,9 @@
             </div>
         </section>
 
+        <!-- Work Experience section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
-                <!-- Portfolio section-->
                 <div class="text-center">
                     <h2 class="page-section-heading text-secondary mb-0 d-inline-block">My Work Experience</h2>
                 </div>
@@ -86,10 +86,14 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="customDivPadding customFontSize align">
-                    I am an experienced Full-Stack Software Developer with 3 years of experience desgining, building, and testing web applications for local governments and multi-million dollar corperations.
-                    I am profiecent with Java, JavaScript and SQL and have used them throughout my career. I also adept and familar with Node, C, C++ and have used all of them during my time in academia to work on assigned projects.
+                <div class="customDivPadding customFontSize align" style="padding-bottom: 40px;">
+                    Specialized in launching new services and products from concept to roll-out and building organizations from ground up. Expertise in improving team performance while securing customer loyalty and forging valuable
+                    relationships with internal and external partners.
+                    <br/>
+                    <br/>
+                    For more information regarding my work experience, download my resume.
                 </div>
+                <button class="btn btn-info"><i class="fas fa-file fa-fw" style="margin-right: 10px; font-size: 24px;"></i><a style="color: white; text-decoration: none; font-size: 24px" href="assets/JuanRamirez.pdf" target="_blank">Juan's Resume</a></button>
             </div>
         </section>
 
@@ -112,21 +116,24 @@
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/logo-js.jpg" alt="Programming Languages"/>
+                            </div><img class="img-fluid" src="assets/img/portfolio/pokdex.jpeg" alt="Pokedex from the Pokemon animated series"/>
                         </div>
                     </div>
+
+                    <!-- Body Mass Index Project -->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/71MerfRhmdL._AC_SY879_.jpg" alt="Education"/>
+                            </div><img class="img-fluid" src="assets/img/portfolio/C.jpg" alt="vector of the acronym BMI"/>
                         </div>
                     </div>
+
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/bootstrap-social.png" alt="Experience "/>
+                            </div><img class="img-fluid" src="assets/img/portfolio/logo-js.jpg" alt="Login-page project demo"/>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
@@ -153,6 +160,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- Pokedex Project button pop up -->
         <!-- Portfolio Modal-->
         <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
@@ -178,7 +187,18 @@
 												<h4 class="h2">Project Summary</h4>
 
 												<p class="text" style="font-size: 24px;">This project is based on one of my favorite childhood animated shows, Pokémon. The project demonstrates my ability to use multiple front-end technologies to build a simple one-page web application.</p>
-                                                <a id="projectButtons" href="https://berkeley-gov.github.io/Pokedex/" class="btn btn-primary stretched-link">View Pokedex</a>
+                                                <br/>
+                                                <ul class="projectTechList">
+                                                    <p style="margin-bottom: 20px; font-size: 20px; font-weight: bolder;">Technologies used to build the Pokedex project are:</p>
+
+                                                    <li>HTML5</li>
+                                                    <li>Bootstrap v4.4.1</li>
+                                                    <li>JavaScript: ES6 (Fetch API and jQuery)</li>
+                                                    <li>Postman (API endpoint testing)</li>
+                                                    <li>DBeaver</li>
+                                                    <li>Chrome Developer Tools</li>
+                                                </ul>
+                                                <a id="projectButtons" style="margin-top: 40px;" href="https://berkeley-gov.github.io/Pokedex/" class="btn btn-primary stretched-link">View Pokedex Project</a>
 										    </div>
 										</div>
 									</div>
@@ -190,6 +210,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- Education pop up button -->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
@@ -210,7 +232,9 @@
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5" style="font-size: 24px;"><strong>University of California, Berkeley</strong> (2018) - B. A. Political Science </p>
                                     <p class="mb-5" style="font-size: 24px;"> <strong>Antelope Valley College</strong> (2020) - A. S. Software Engineering</p>
-                                  <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+
+                                    <a id="projectButtons" style="margin-right: 20px;" href="https://body-mass-index-cal.netlify.app" class="btn btn-primary stretched-link">View BMI Project</a>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
                         </div>
@@ -245,7 +269,7 @@
                                         ground up. Expertise in improving team performance while securing customer loyalty and forging valuable
                                         relationships with internal and external partners.</p>
 									<p class="mb-5" style="font-size: 24px;">For more information regarding my work experience, download my resume.</p>
-									<button class="btn btn-info"><i class="fas fa-file fa-fw"></i><a style="color: white; text-decoration: none;" href="assets/JuanRamirez.pdf" target="_blank">Juan's Resume</a></button>
+									<button class="btn btn-info"><i class="fas fa-file fa-fw" style="margin-right: 10px;"></i><a style="color: white; text-decoration: none;" href="https://zen-mayer-dc5b62.netlify.app" target="_blank">View Login Demo Project</a></button>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>

@@ -4,7 +4,7 @@
 
 
 .customDivPadding {
-    padding: 0px 120px;
+    padding: 0 300px;
 }
 
 .customFontSize {
@@ -14,4 +14,8 @@
 
 .align {
     text-align: center;
+}
+
+.projectTechList {
+    list-style-type: none;
 }
