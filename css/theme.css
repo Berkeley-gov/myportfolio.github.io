@@ -12,6 +12,18 @@
     line-height: 3rem;
 }
 
+@media(max-width: 480px) {
+    .customFontSize {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    .customDivPadding {
+        padding: 0 100px;
+    }
+}
+
+
 .align {
     text-align: center;
 }

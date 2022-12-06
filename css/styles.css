@@ -43,6 +43,10 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 article,
 aside,
 figcaption,
@@ -64,7 +68,8 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff
+    background-color: #fff;
+    position: relative
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -419,6 +424,13 @@ h6 {
 .lead {
     font-size: 1.25rem;
     font-weight: 300
+}
+
+@media(max-width: 480px) {
+    .lead {
+        font-size: 1rem;
+        padding: 0 50px;
+    }
 }
 
 .display-1 {
@@ -10277,10 +10289,6 @@ form .row:first-child .floating-label-form-group {
 
 .pre {
     white-space: pre
-}
-
-.pre-wrap {
-    white-space: pre-wrap
 }
 
 .icon-contact {
