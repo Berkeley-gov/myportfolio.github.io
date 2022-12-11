@@ -172,13 +172,13 @@ sup {
 }
 
 a {
-    color: #1abc9c;
+    color: #FFF;
     text-decoration: none;
     background-color: transparent
 }
 
 a:hover {
-    color: #117964;
+    color: #171010;
     text-decoration: underline
 }
 
@@ -423,7 +423,8 @@ h6 {
 
 .lead {
     font-size: 1.25rem;
-    font-weight: 300
+    font-weight: 300;
+    color: #FFF;
 }
 
 @media(max-width: 480px) {
@@ -2083,6 +2084,10 @@ textarea.form-control {
     margin-top: .25rem
 }
 
+#portfolio p {
+    color: #FFF;
+}
+
 .form-row {
     display: flex;
     flex-wrap: wrap;
@@ -2461,16 +2466,16 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #1abc9c;
-    border-color: #1abc9c
+    background-color: #171010!important;
+    border-color: #FFF;
 }
 
 .btn-primary.focus,
 .btn-primary:focus,
 .btn-primary:hover {
     color: #fff;
-    background-color: #159a80;
-    border-color: #148f77
+    background-color: #413f3e;
+    border-color: #FFF
 }
 
 .btn-primary.focus,
@@ -2581,8 +2586,8 @@ fieldset:disabled a.btn {
 
 .btn-info {
     color: #fff;
-    background-color: #17a2b8;
-    border-color: #17a2b8
+    background-color: #171010;
+    border-color: #FFF;
 }
 
 .btn-info.focus,
@@ -5974,7 +5979,9 @@ a.close.disabled {
 .modal-body {
     position: relative;
     flex: 1 1 auto;
-    padding: 4rem 1rem
+    padding: 3rem 1rem;
+    color: #FFF;
+    background-color: #413f3e;
 }
 
 .modal-footer {
@@ -6630,7 +6637,7 @@ button.bg-primary:hover {
 }
 
 .bg-secondary {
-    background-color: #2c3e50!important
+    background-color: #171010!important
 }
 
 a.bg-secondary:focus,
@@ -6652,7 +6659,7 @@ button.bg-success:hover {
 }
 
 .bg-info {
-    background-color: #17a2b8!important
+    background-color: #413f3e!important
 }
 
 a.bg-info:focus,
@@ -9800,7 +9807,7 @@ a.text-primary:hover {
 }
 
 .text-secondary {
-    color: #2c3e50!important
+    color: #FFF!important
 }
 
 a.text-secondary:focus,
@@ -9818,12 +9825,12 @@ a.text-success:hover {
 }
 
 .text-info {
-    color: #17a2b8!important
+    color: #FFF!important
 }
 
 a.text-info:focus,
 a.text-info:hover {
-    color: #0f6674!important
+    color: #171010!important
 }
 
 .text-warning {
@@ -9867,7 +9874,7 @@ a.text-dark:hover {
 }
 
 .text-muted {
-    color: #6c757d!important
+    color: #FFF!important
 }
 
 .text-black-50 {
@@ -9985,7 +9992,8 @@ a.text-dark:hover {
 }
 
 .page-section {
-    padding: 6rem 0
+    padding: 6rem 0;
+    background-color: #292929;
 }
 
 .page-section .page-section-heading {
@@ -9995,7 +10003,7 @@ a.text-dark:hover {
 
 @media (min-width:992px) {
     .page-section .page-section-heading {
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 2.5rem
     }
 }
@@ -10012,9 +10020,9 @@ a.text-dark:hover {
     width: 100%;
     max-width: 7rem;
     height: .25rem;
-    background-color: #2c3e50;
+    background-color: #FFF;
     border-radius: 1rem;
-    border-color: #2c3e50!important
+    border-color: #FFF!important
 }
 
 .divider-custom .divider-custom-line:first-child {
@@ -10026,7 +10034,7 @@ a.text-dark:hover {
 }
 
 .divider-custom .divider-custom-icon {
-    color: #2c3e50!important;
+    color: #FFF!important;
     font-size: 2rem
 }
 
@@ -10087,7 +10095,7 @@ a.text-dark:hover {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #1abc9c
+    color: #413f3e;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -10122,7 +10130,7 @@ a.text-dark:hover {
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
         color: #fff;
-        background: #1abc9c
+        background: #413f3e;
     }
     #mainNav.navbar-shrink {
         padding-top: .5rem;
@@ -10157,7 +10165,7 @@ a.text-dark:hover {
         padding-bottom: 6rem
     }
     .masthead .masthead-heading {
-        font-size: 4rem;
+        font-size: 2.5rem;
         line-height: 3.5rem
     }
     .masthead .masthead-subheading {
@@ -10171,7 +10179,9 @@ a.text-dark:hover {
     display: block;
     max-width: 25rem;
     border-radius: .5rem;
-    overflow: hidden
+    overflow: hidden;
+    box-shadow: -10px 30px 25px rgb(0 0 0 / 18%), -10px 10px 20px rgb(0 0 0 / 18%);
+
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -10180,7 +10190,7 @@ a.text-dark:hover {
     left: 0;
     transition: all .2s ease-in-out;
     opacity: 0;
-    background-color: rgba(26, 188, 156, .9)
+    background-color: rgba(23,16,16, 0.95);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -10210,7 +10220,7 @@ a.text-dark:hover {
     top: 1rem;
     font-size: 3rem;
     line-height: 3rem;
-    color: #1abc9c;
+    color: #FFF;
     opacity: 1
 }
 
@@ -10266,12 +10276,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #2c3e50;
+    background-color: #171010;
     color: #fff
 }
 
 .copyright {
-    background-color: #1a252f
+    background-color: #171010;
 }
 
 #brandImage {
@@ -10312,5 +10322,6 @@ form .row:first-child .floating-label-form-group {
 }
 
 .work-experience {
-    background-color: #12a3b8;
+    background-color: #413f3e;
 }
+

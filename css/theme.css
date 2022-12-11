@@ -1,5 +1,6 @@
 #projectButtons {
-    background-color: #0f6674 !important;
+    background-color: #171010;
+    border-color: unset!important;
 }
 
 
@@ -8,8 +9,8 @@
 }
 
 .customFontSize {
-    font-size: 1.5rem;
-    line-height: 3rem;
+    font-size: 1rem;
+    line-height: 2rem;
 }
 
 @media(max-width: 480px) {
