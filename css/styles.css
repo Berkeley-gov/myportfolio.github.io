@@ -388,7 +388,8 @@ h6 {
     margin-bottom: .5rem;
     font-family: SB Heading, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     font-weight: 700;
-    line-height: 1.2
+    line-height: 1.2;
+    color: #FFF;
 }
 
 .h1,
@@ -404,6 +405,18 @@ h2 {
 .h3,
 h3 {
     font-size: 1.75rem
+}
+
+@media(max-width: 475px) {
+    .h3,
+    h3 {
+        text-align: center;
+        padding: 5% 0;
+    }
+
+    #v-pills-tabContent {
+        padding-top: 5%;
+    }
 }
 
 .h4,
@@ -431,6 +444,11 @@ h6 {
     .lead {
         font-size: 1rem;
         padding: 0 50px;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 0.5rem 0.5rem !important;
     }
 }
 
@@ -4243,7 +4261,7 @@ input[type=submit].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #1abc9c
+    background-color: #292929;
 }
 
 .nav-fill .nav-item {
@@ -6666,11 +6684,11 @@ a.bg-info:focus,
 a.bg-info:hover,
 button.bg-info:focus,
 button.bg-info:hover {
-    background-color: #117a8b!important
+    background-color: #413f3e!important
 }
 
 .bg-warning {
-    background-color: #ffc107!important
+    background-color: #413f3e!important
 }
 
 a.bg-warning:focus,
