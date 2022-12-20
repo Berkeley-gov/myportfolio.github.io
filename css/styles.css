@@ -415,7 +415,7 @@ h3 {
     }
 
     #v-pills-tabContent {
-        padding-top: 5%;
+        padding-top: 10%;
     }
 }
 
@@ -460,7 +460,7 @@ h6 {
 
     .nav-link {
         display: block;
-        padding: 0.5rem 0.5rem !important;
+        padding: 1rem 1rem !important;
     }
 }
 
@@ -5470,8 +5470,16 @@ a.badge-dark:focus {
     position: relative;
     display: block;
     padding: .75rem 1.25rem;
-    background-color: #fff;
-    border: .125rem solid rgba(0, 0, 0, .125)
+    background-color: unset;
+    border: none;
+}
+
+.bi-diamond-fill {
+    margin-right: 5%;
+}
+
+h4 {
+    font-weight: normal;
 }
 
 .list-group-item:first-child {
