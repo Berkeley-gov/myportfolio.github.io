@@ -443,7 +443,19 @@ h6 {
 @media(max-width: 480px) {
     .lead {
         font-size: 1rem;
-        padding: 0 50px;
+        padding: 0 10px;
+    }
+
+    .icon-contact {
+        margin-top: 20px;
+    }
+
+    .page-section .page-section-heading {
+        line-height: 2.5rem !important;
+    }
+
+    .divider-custom .divider-custom-line {
+        max-width: 10rem !important;
     }
 
     .nav-link {
