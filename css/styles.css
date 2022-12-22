@@ -68,7 +68,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff;
+    background-color: #292929;
     position: relative
 }
 
@@ -4273,7 +4273,7 @@ input[type=submit].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #292929;
+    background-color: #171010;
 }
 
 .nav-fill .nav-item {
@@ -5475,7 +5475,7 @@ a.badge-dark:focus {
 }
 
 .bi-diamond-fill {
-    margin-right: 5%;
+    margin-right: 1%;
 }
 
 h4 {
@@ -6697,7 +6697,7 @@ button.bg-success:hover {
 }
 
 .bg-info {
-    background-color: #413f3e!important
+    background-color: #292929!important
 }
 
 a.bg-info:focus,
@@ -10357,9 +10357,5 @@ form .row:first-child .floating-label-form-group {
 
 .btn-social {
     margin-bottom: .5rem
-}
-
-.work-experience {
-    background-color: #413f3e;
 }
 
