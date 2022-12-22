@@ -178,8 +178,12 @@ a {
 }
 
 a:hover {
-    color: #171010;
+    color: #FFF;
     text-decoration: underline
+}
+
+.work-experience > a:hover {
+    color: #FFF !important;
 }
 
 a:not([href]),
@@ -4273,7 +4277,7 @@ input[type=submit].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #171010;
+    background-color: #414a4c;
 }
 
 .nav-fill .nav-item {
@@ -6017,9 +6021,10 @@ a.close.disabled {
 .modal-body {
     position: relative;
     flex: 1 1 auto;
-    padding: 3rem 1rem;
+    padding: 1rem;
     color: #FFF;
     background-color: #413f3e;
+    border-radius: 10px;
 }
 
 .modal-footer {
@@ -6697,7 +6702,11 @@ button.bg-success:hover {
 }
 
 .bg-info {
-    background-color: #292929!important
+    background-color: #0e1111!important
+}
+
+.work-experience {
+    background-color: #0e1111 !important;
 }
 
 a.bg-info:focus,
@@ -10031,7 +10040,7 @@ a.text-dark:hover {
 
 .page-section {
     padding: 6rem 0;
-    background-color: #292929;
+    background-color: #414a4c;
 }
 
 .page-section .page-section-heading {
@@ -10186,7 +10195,8 @@ a.text-dark:hover {
 
 .masthead .masthead-heading {
     font-size: 2.75rem;
-    line-height: 2.75rem
+    line-height: 2.75rem;
+    padding-bottom: 4rem;
 }
 
 .masthead .masthead-subheading {
