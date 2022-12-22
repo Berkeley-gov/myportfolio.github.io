@@ -10180,8 +10180,8 @@ a.text-dark:hover {
 }
 
 .masthead {
-    padding-top: calc(6rem + 74px);
-    padding-bottom: 6rem
+    padding-top: calc(4rem + 74px);
+    padding-bottom: 0;
 }
 
 .masthead .masthead-heading {
@@ -10199,8 +10199,8 @@ a.text-dark:hover {
 
 @media (min-width:992px) {
     .masthead {
-        padding-top: calc(6rem + 104px);
-        padding-bottom: 6rem
+        padding-top: calc(4rem + 104px);
+        padding-bottom: 0;
     }
     .masthead .masthead-heading {
         font-size: 2.5rem;
@@ -10327,7 +10327,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .portfolio {
-    padding-top: 6rem;
+    padding-top: 4rem;
     padding-bottom: 4.5rem
 }
 
