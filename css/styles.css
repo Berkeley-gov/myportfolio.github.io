@@ -4730,6 +4730,12 @@ input[type=submit].btn-block {
     max-width: 50%;
 }
 
+@media(max-width: 578px) {
+    .card {
+        max-width: 100%;
+    }
+}
+
 .card>hr {
     margin-right: 0;
     margin-left: 0
