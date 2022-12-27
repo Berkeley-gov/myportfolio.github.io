@@ -174,12 +174,12 @@ sup {
 a {
     color: #FFF;
     text-decoration: none;
-    background-color: transparent
+    background-color: transparent;
 }
 
 a:hover {
     color: #FFF;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 .work-experience > a:hover {
@@ -189,7 +189,7 @@ a:hover {
 a:not([href]),
 a:not([href]):hover {
     color: inherit;
-    text-decoration: none
+    text-decoration: none;
 }
 
 code,
@@ -415,7 +415,7 @@ h3 {
     .h3,
     h3 {
         text-align: center;
-        padding: 5% 0;
+        padding: 15% 0;
     }
 
     #v-pills-tabContent {
@@ -2500,7 +2500,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #171010!important;
+    background-color: #414a4c!important;
     border-color: #FFF;
 }
 
@@ -4277,7 +4277,7 @@ input[type=submit].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #414a4c;
+    background-color: #0e1111;
 }
 
 .nav-fill .nav-item {
@@ -4291,8 +4291,25 @@ input[type=submit].btn-block {
     text-align: center
 }
 
+#contact {
+    background-color: #414a4c;
+}
+
+
 .tab-content>.tab-pane {
-    display: none
+    display: none;
+    background-color: #0e1111;
+    padding: 8%;
+    border-radius: 0.5rem;
+}
+
+.work-links {
+    color: #7ba9f7!important;
+    text-decoration: underline !important;
+}
+
+.card-footer .work-links {
+    padding: 2% 5% 0 0;
 }
 
 .tab-content>.active {
@@ -4704,7 +4721,8 @@ input[type=submit].btn-block {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: #414a4c;
+    color: #FFF;
     background-clip: border-box;
     border: .125rem solid rgba(0, 0, 0, .125);
     border-radius: .5rem
@@ -5973,9 +5991,9 @@ a.close.disabled {
     flex-direction: column;
     width: 100%;
     pointer-events: auto;
-    background-color: #fff;
+    background-color: unset;
     background-clip: padding-box;
-    border: 0 solid rgba(0, 0, 0, .2);
+    border: unset;
     border-radius: .75rem;
     outline: 0
 }
@@ -6702,11 +6720,11 @@ button.bg-success:hover {
 }
 
 .bg-info {
-    background-color: #0e1111!important
+    background-color: #414a4c!important
 }
 
 .work-experience {
-    background-color: #0e1111 !important;
+    background-color: #414a4c!important;
 }
 
 a.bg-info:focus,
@@ -10040,7 +10058,7 @@ a.text-dark:hover {
 
 .page-section {
     padding: 6rem 0;
-    background-color: #414a4c;
+    background-color: #0e1111;
 }
 
 .page-section .page-section-heading {
@@ -10268,7 +10286,7 @@ a.text-dark:hover {
     top: 1rem;
     font-size: 3rem;
     line-height: 3rem;
-    color: #FFF;
+    color: #FFF !important;
     opacity: 1
 }
 
