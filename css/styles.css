@@ -337,6 +337,11 @@ legend {
     white-space: normal
 }
 
+#projects {
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
+
 progress {
     vertical-align: baseline
 }
@@ -408,14 +413,14 @@ h2 {
 
 .h3,
 h3 {
-    font-size: 1.75rem
+    font-size: 1.75rem;
+    padding: 2% 0;
 }
 
 @media(max-width: 475px) {
     .h3,
     h3 {
-        text-align: center;
-        padding: 15% 0;
+        padding: 10% 0;
     }
 
     #v-pills-tabContent {
@@ -447,7 +452,7 @@ h6 {
 @media(max-width: 480px) {
     .lead {
         font-size: 1rem;
-        padding: 0 10px;
+        padding: 0;
     }
 
     .icon-contact {
@@ -552,7 +557,7 @@ mark {
 .img-fluid,
 .img-thumbnail {
     max-width: 100%;
-    height: auto
+    height: 250px;
 }
 
 .img-thumbnail {
@@ -4294,6 +4299,7 @@ input[type=submit].btn-block {
 
 #contact {
     background-color: #414a4c;
+    padding-top: 4rem;
 }
 
 
@@ -4828,7 +4834,19 @@ input[type=submit].btn-block {
 .card-img-bottom,
 .card-img-top {
     flex-shrink: 0;
-    width: 100%
+    width: 100%;
+    max-height: 350px;
+    height: 350px;
+}
+
+
+@media(max-width: 475px) {
+   .card-img-top {
+        flex-shrink: 0;
+        width: 100%;
+        max-height: 240px;
+        height: 240px;
+    }
 }
 
 .card-img,
@@ -10226,14 +10244,32 @@ a.text-dark:hover {
 }
 
 .masthead {
-    padding-top: calc(4rem + 74px);
+    padding-top: calc(3rem + 74px);
     padding-bottom: 0;
 }
 
+.header {
+    letter-spacing: 2px;
+    text-align: center;
+    background-image: linear-gradient(92deg, #000, #fff, #fff, #888, #000);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-move 6s linear infinite;
+}
+
+@keyframes gradient-move {
+  100% {
+    background-position: 0% 50%;
+  }
+  0% {
+    background-position: 100% 50%;
+  }
+}
 .masthead .masthead-heading {
     font-size: 2.75rem;
     line-height: 2.75rem;
-    padding-bottom: 4rem;
+    padding-bottom: 1.5rem;
 }
 
 .masthead .masthead-subheading {
@@ -10374,7 +10410,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .portfolio {
-    padding-top: 4rem;
+    padding-top:1.5rem;
     padding-bottom: 4.5rem
 }
 
